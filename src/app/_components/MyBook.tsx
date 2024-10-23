@@ -40,7 +40,9 @@ const Flipbook: React.FC = () => {
 
             {/* PDF Document and Flipbook */}
             <div className="bg-gray-200 shadow-2xl rounded-lg overflow-hidden">
-                <Document file="/Object_Oriented_Programming.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+                <Document 
+                    file="/Ahmed-Sadek-resume.pdf" 
+                    onLoadSuccess={onDocumentLoadSuccess}>
                     <HTMLFlipBook
                         width={1000} // Adjust the width to fit two pages
                         height={800} // Set height for the pages
